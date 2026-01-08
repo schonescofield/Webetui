@@ -1,8 +1,25 @@
 {
-  "name": "Webetu",
-  "short_name": "Webetu",
-  "start_url": "./index.html",
-  "display": "standalone",
+  "short_name": "AwQaty",
+  "name": "AwQaty",
+  "start_url": "index.html",
+  "display": "standalone", 
+  "background_color": "#ffffff", 
   "theme_color": "#000000",
-  "background_color": "#000000"
+  "orientation": "portrait",
+      "icons": [
+        { "src": "android-launchericon-48-48.png",
+            "type": "image/png",
+            "sizes": "48x48" },
+        { "src": "android-launchericon-72-72.png",
+            "type": "image/png",
+            "sizes": "72x72" },
+        { "src": "android-launchericon-192-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"},
+        { "src": "android-launchericon-512-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"}
+      ]
 }
